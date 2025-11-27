@@ -1,0 +1,61 @@
+version: "3.1"
+
+stories:
+
+- story: saludo e información general
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+    - intent: informacion_general
+    - action: utter_informacion_general
+
+- story: consultar horarios
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+    - intent: preguntar_horarios
+    - action: utter_preguntar_horarios
+
+- story: consultar planes
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+    - intent: preguntar_planes
+    - action: utter_preguntar_planes
+
+- story: consultar clases
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+    - intent: preguntar_clases
+    - action: utter_preguntar_clases
+
+- story: consultar entrenador personal
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+    - intent: preguntar_entrenador
+    - action: utter_preguntar_entrenador
+
+- story: consultar maquinas
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+    - intent: preguntar_maquinas
+    - action: utter_preguntar_maquinas
+
+- story: flujo de inscripción completo
+  steps:
+    - intent: solicitar_inscripcion
+    - action: formulario_inscripcion
+    - active_loop: formulario_inscripcion
+    - intent: dar_nombre
+      entities:
+        - nombre: "Juan Pérez"
+    - intent: dar_telefono
+      entities:
+        - telefono: "3123456789"
+    - intent: dar_email
+      entities:
+        - email: "correo@ejemplo.com"
+    - action: utter_inscripcion_completa

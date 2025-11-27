@@ -1,0 +1,78 @@
+version: "3.1"
+
+nlu:
+
+- intent: saludar
+  examples: |
+    - hola
+    - buenas
+    - buen día
+    - qué tal
+    - hola, ¿cómo estás?
+
+- intent: despedir
+  examples: |
+    - adiós
+    - hasta luego
+    - chao
+    - nos vemos
+
+- intent: informacion_general
+  examples: |
+    - quiero información general
+    - dame información del gimnasio
+    - qué servicios ofrecen
+
+- intent: preguntar_horarios
+  examples: |
+    - cuáles son los horarios
+    - horario de atención
+    - a qué horas abren
+
+- intent: preguntar_planes
+  examples: |
+    - qué planes tienen
+    - cuánto vale el plan mensual
+    - precios del gimnasio
+
+- intent: preguntar_clases
+  examples: |
+    - qué clases ofrecen
+    - hay clases grupales
+    - qué tipo de clases hay
+
+- intent: preguntar_entrenador
+  examples: |
+    - tienen entrenador personal
+    - puedo contratar un entrenador
+    - quiero un entrenador privado
+
+- intent: preguntar_maquinas
+  examples: |
+    - qué máquinas tienen
+    - qué equipos hay en el gimnasio
+    - máquinas disponibles
+
+- intent: solicitar_inscripcion
+  examples: |
+    - quiero inscribirme
+    - quiero registrarme
+    - deseo afiliarme al gimnasio
+
+- intent: dar_nombre
+  examples: |
+    - mi nombre es [Luis Martínez](nombre)
+    - me llamo [Ana Torres](nombre)
+    - soy [Carlos](nombre)
+
+- intent: dar_telefono
+  examples: |
+    - mi número es [3145678901](telefono)
+    - es [3019876543](telefono)
+    - teléfono [3234567890](telefono)
+
+- intent: dar_email
+  examples: |
+    - mi correo es [ejemplo@mail.com](email)
+    - es [usuario@gmail.com](email)
+    - correo [test@hotmail.com](email)

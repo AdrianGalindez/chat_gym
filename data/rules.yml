@@ -1,0 +1,27 @@
+version: "3.1"
+
+rules:
+
+- rule: Responder saludo
+  steps:
+    - intent: saludar
+    - action: utter_saludar
+
+- rule: Activar formulario de inscripción
+  steps:
+    - intent: solicitar_inscripcion
+    - action: formulario_inscripcion
+    - active_loop: formulario_inscripcion
+
+- rule: Enviar confirmación al terminar el formulario
+  condition:
+    - active_loop: formulario_inscripcion
+  steps:
+    - action: formulario_inscripcion
+    - active_loop: null
+    - action: utter_inscripcion_completa
+
+- rule: Responder despedida
+  steps:
+    - intent: despedir
+    - action: utter_despedir

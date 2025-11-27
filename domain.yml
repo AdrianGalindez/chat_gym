@@ -1,0 +1,87 @@
+version: "3.1"
+
+intents:
+  - saludar
+  - despedir
+  - informacion_general
+  - preguntar_horarios
+  - preguntar_planes
+  - preguntar_clases
+  - preguntar_entrenador
+  - preguntar_maquinas
+  - solicitar_inscripcion
+  - dar_nombre
+  - dar_telefono
+  - dar_email
+
+entities:
+  - nombre
+  - telefono
+  - email
+
+slots:
+  nombre:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: nombre
+
+  telefono:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: telefono
+
+  email:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: email
+
+forms:
+  formulario_inscripcion:
+    required_slots:
+      - nombre
+      - telefono
+      - email
+
+responses:
+
+  utter_saludar:
+    - text: "¡Hola! ¿En qué puedo ayudarte hoy?"
+
+  utter_despedir:
+    - text: "¡Hasta luego! Fue un gusto ayudarte."
+
+  utter_informacion_general:
+    - text: "Somos un gimnasio completo con máquinas, clases grupales y entrenadores personales."
+
+  utter_preguntar_horarios:
+    - text: "Nuestro horario es de 5:00 a.m. a 10:00 p.m. de lunes a sábado."
+
+  utter_preguntar_planes:
+    - text: "Tenemos planes mensuales, trimestrales y anuales. ¿Quieres más detalles?"
+
+  utter_preguntar_clases:
+    - text: "Ofrecemos clases de spinning, funcional, yoga, rumba y más."
+
+  utter_preguntar_entrenador:
+    - text: "Sí, contamos con entrenadores personales. ¿Deseas conocer precios?"
+
+  utter_preguntar_maquinas:
+    - text: "Tenemos máquinas de cardio, fuerza, pesas libres y zona funcional."
+
+  utter_ask_nombre:
+    - text: "Perfecto, ¿cuál es tu nombre?"
+
+  utter_ask_telefono:
+    - text: "¿Podrías darme tu número de teléfono?"
+
+  utter_ask_email:
+    - text: "Finalmente, necesito tu correo electrónico."
+
+  utter_inscripcion_completa:
+    - text: "¡Listo {nombre}! Tu inscripción fue recibida. Te contactaremos al número {telefono} y al correo {email}."
