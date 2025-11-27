@@ -13,6 +13,8 @@ intents:
   - dar_nombre
   - dar_telefono
   - dar_email
+  - confirmar
+  - negar
 
 entities:
   - nombre
@@ -85,3 +87,6 @@ responses:
 
   utter_inscripcion_completa:
     - text: "¡Listo {nombre}! Tu inscripción fue recibida. Te contactaremos al número {telefono} y al correo {email}."
+
+  utter_cancelar_formulario:
+    - text: "Entendido. Cancelé el proceso de inscripción. ¿Deseas algo más?"

@@ -5,74 +5,616 @@ nlu:
 - intent: saludar
   examples: |
     - hola
-    - buenas
-    - buen día
+    - hola hola
+    - holaaa
+    - buenos días
+    - buenas tardes
+    - buenas noches
     - qué tal
-    - hola, ¿cómo estás?
+    - qué más
+    - qué más pues
+    - qué hubo
+    - hey
+    - hello
+    - holi
+    - hola cómo estás
+    - hola qué tal
+    - cómo va todo
+    - qué cuentas
+    - saludos
+    - hola amigo
+    - hola parcero
+    - quiubo
+    - hola crack
+    - hola máquina
+    - muy buenas
+    - buen día
+    - buenas, cómo vamos
+    - hola a todos
+    - hola chicos
+    - hola, un saludo
+    - qué hay de nuevo
+    - cómo amaneciste
+    - qué onda
+    - hola, estoy por aquí
+    - hola, qué haces
+    - buenas, presente por aquí
 
 - intent: despedir
   examples: |
     - adiós
-    - hasta luego
     - chao
     - nos vemos
+    - hasta luego
+    - hasta pronto
+    - hasta mañana
+    - hablamos después
+    - cuídate
+    - que estés bien
+    - bye
+    - me despido
+    - ahí nos vemos
+    - hablamos
+    - me voy
+    - ya me retiro
+    - hasta la próxima
+    - que tengas buen día
+    - que tengas buena tarde
+    - buena noche
+    - nos vemos luego
+    - nos vidrios
+    - chaito
+    - hasta otro rato
+    - listo, hablamos
+    - me desconecto
+    - gracias, hasta luego
+    - nos vemos mañana
+    - nos vemos más tarde
+    - hasta más ver
+    - hasta que nos veamos
 
 - intent: informacion_general
   examples: |
-    - quiero información general
-    - dame información del gimnasio
-    - qué servicios ofrecen
+    - qué ofrecen
+    - qué servicios brindan
+    - qué puedo hacer aquí
+    - qué tienen disponible
+    - qué opciones hay en general
+    - qué puedo preguntar
+    - cómo me pueden ayudar
+    - qué me ofrecen
+    - qué tal el gimnasio
 
 - intent: preguntar_horarios
   examples: |
     - cuáles son los horarios
-    - horario de atención
-    - a qué horas abren
+    - a qué hora abren
+    - a qué hora cierran
+    - trabajan hoy
+    - están abiertos ahora
+    - cuál es el horario de atención
+    - los horarios por favor
+    - cuándo atienden
+    - abren los fines de semana
+    - atienden los domingos
+    - atienden en la noche
+    - qué horario manejan
+    - desde qué hora abren
+    - hasta qué hora puedo ir
+    - cuándo puedo visitarlos
+    - qué días trabajan
+    - cuál es el horario hoy
+    - están abiertos en festivo
+    - abren mañana
+    - atienden a mediodía
+    - cuál es la hora límite
+    - horario de hoy por favor
+    - horario de mañana
+    - están trabajando en este momento
+    - hasta qué hora atienden hoy
+    - qué horario tienen los sábados
+    - qué horario tienen los domingos
+    - puedo ir ahora
+    - atienden entre semana
+    - cuál es su horario habitual
 
 - intent: preguntar_planes
   examples: |
-    - qué planes tienen
-    - cuánto vale el plan mensual
-    - precios del gimnasio
+    - qué planes ofrecen
+    - cuánto vale la mensualidad
+    - qué membresías tienen
+    - cuál es el precio del plan
+    - cuánto cuesta inscribirse
+    - qué precios manejan
+    - hay planes de promoción
 
 - intent: preguntar_clases
   examples: |
     - qué clases ofrecen
-    - hay clases grupales
-    - qué tipo de clases hay
+    - tienen clases grupales
+    - qué tipos de rutinas manejan
+    - hay clases funcionales
+    - tienen clases de yoga
+    - qué actividades dirigidas tienen
 
 - intent: preguntar_entrenador
   examples: |
     - tienen entrenador personal
     - puedo contratar un entrenador
     - quiero un entrenador privado
+    - entrenador personalizado
+    - ofrecen entrenador personal
+    - manejan entrenador personal
+    - cuentan con entrenadores personales
+    - puedo pedir un entrenador solo para mí
+    - hay entrenadores disponibles
+    - tienen entrenador para principiantes
+    - tienen entrenador para avanzados
+    - tienen entrenador especializado
+    - qué precio tiene el entrenador personal
+    - cuánto cuesta una sesión con entrenador
+    - el plan incluye entrenador o es adicional
+    - cómo reservo un entrenador personal
+    - puedo cambiar de entrenador si no me gusta
+    - los entrenadores están certificados
+    - pueden armarme una rutina personalizada
+    - el entrenador hace seguimiento del progreso
+    - el entrenador corrige mi técnica
+    - hacen evaluación física con entrenador
+    - los entrenadores están disponibles hoy
+    - hay entrenadores mujeres
+    - hay entrenadores hombres
+    - tienen paquetes con entrenador incluido
+    - cuánto cuesta un paquete de 10 sesiones
+    - puedo pagar sesiones sueltas con entrenador
+    - tienen entrenadores para rehabilitación leve (sin asesoría médica)
+    - hay entrenadores de boxeo o artes marciales
+    - tienen entrenadores para adultos mayores
+    - cómo funciona el entrenamiento personalizado aquí
+    - el entrenador me ayuda con postura y técnica
+    - puedo hablar con un entrenador antes de contratar
+    - tienen entrenadores con experiencia internacional
 
 - intent: preguntar_maquinas
   examples: |
     - qué máquinas tienen
-    - qué equipos hay en el gimnasio
-    - máquinas disponibles
+    - qué tipos de equipos manejan
+    - hay máquinas para pierna
+    - tienen caminadoras
+    - tienen máquinas de pecho
+    - qué equipos cardiovasculares manejan
 
 - intent: solicitar_inscripcion
   examples: |
     - quiero inscribirme
     - quiero registrarme
     - deseo afiliarme al gimnasio
+    - cómo me inscribo
+    - dónde puedo inscribirme
+    - quiero hacer la inscripción
+    - quiero unirme al gimnasio
+    - deseo hacer mi registro
+    - vengo a inscribirme
+    - quiero afiliarme ya
+    - necesito inscribirme
+    - quiero sacar la inscripción
+    - cómo hago para registrarme
+    - quiero abrir una membresía
+    - quiero obtener una membresía
+    - quiero afiliarme al gym
+    - quiero empezar y necesito inscribirme
+    - quiero iniciar mi membresía
+    - cómo saco la inscripción
+    - quiero matricularme
+    - quiero registrarme por primera vez
+    - me ayudas a inscribirme
+    - dónde hago la inscripción
+    - quiero llenar el formulario de inscripción
+    - quiero pagar mi inscripción
+    - estoy listo para inscribirme
+    - deseo formalizar mi afiliación
+    - quiero un lugar para registrarme
+    - quiero activar su membresía hoy
+    - quiero convertirme en socio del gimnasio
+    - quiero iniciar el proceso de membresía
 
 - intent: dar_nombre
   examples: |
-    - mi nombre es [Luis Martínez](nombre)
-    - me llamo [Ana Torres](nombre)
-    - soy [Carlos](nombre)
+    - me llamo [Andrés](nombre)
+    - soy [Mariana](nombre)
+    - mi nombre es [Valeria](nombre)
+    - hola, soy [Sebastián](nombre)
+    - puedes llamarme [Lucía](nombre)
+    - me conocen como [Camilo](nombre)
+    - yo soy [Sara](nombre)
+    - me presento, soy [Felipe](nombre)
+    - mi nombre completo es [Ana Lucía](nombre)
+    - me llamo [Jorge Luis](nombre)
+    - me dicen [Sofi](nombre)
+    - hola, mi nombre es [Esteban](nombre)
+    - me llamo [Daniel Fernando](nombre)
+    - soy [Nicolás](nombre)
+    - me conocen como [Lina Marcela](nombre)
+    - mi nombre es [Karla](nombre)
+    - yo soy [Tatiana](nombre)
+    - me llamo [Diego](nombre)
+    - hola, soy [Jazmín](nombre)
+    - me llamo [Valentina](nombre)
+    - mi nombre es [Luis Eduardo](nombre)
+    - me conocen como [Rocío](nombre)
+    - yo soy [Samuel](nombre)
+    - me llamo [Helena](nombre)
+    - me dicen [Pipe](nombre)
+    - soy [Mónica](nombre)
+    - puedes llamarme [Adriana](nombre)
+    - hola, mi nombre es [Santiago](nombre)
+    - me llamo [Elena](nombre)
+    - soy [Javier](nombre)
+    - me conocen como [Carla](nombre)
+    - mi nombre es [Óscar](nombre)
+    - me llamo [Larisa](nombre)
+    - soy [Pablo Andrés](nombre)
+    - me dicen [Nati](nombre)
+    - hola, soy [Mauricio](nombre)
+    - yo soy [Julieta](nombre)
+    - me llamo [Cristóbal](nombre)
+    - mi nombre es [Alisson](nombre)
+    - soy [Ricardo](nombre)
+    - me conocen como [Verónica](nombre)
+    - me llamo [Iván](nombre)
+    - hola, mi nombre es [Melany](nombre)
+    - me llaman [Alex](nombre)
+    - me llamo [Tato](nombre)
+    - [Andrés](nombre)
+    - [Mariana](nombre)
+    - [Valeria](nombre)
+    - [Sebastián](nombre)
+    - [Lucía](nombre)
+    - [Camilo](nombre)
+    - [Sara](nombre)
+    - [Felipe](nombre)
+    - [Ana Lucía](nombre)
+    - [Sofi](nombre)
+    - [Esteban](nombre)
+    - [Nicolás](nombre)
+    - [Karla](nombre)
+    - [Tatiana](nombre)
+    - [Diego](nombre)
+    - [Jazmín](nombre)
+    - [Valentina](nombre)
+    - [Rocío](nombre)
+    - [Samuel](nombre)
+    - [Helena](nombre)
+    - [Pipe](nombre)
+    - [Mónica](nombre)
+    - [Adriana](nombre)
+    - [Santiago](nombre)
+    - [Elena](nombre)
+    - [Javier](nombre)
+    - [Carla](nombre)
+    - [Óscar](nombre)
+    - [Larisa](nombre)
+    - [Pablo Andrés](nombre)
+    - [Nati](nombre)
+    - [Mauricio](nombre)
+    - [Julieta](nombre)
+    - [Cristóbal](nombre)
+    - [Alisson](nombre)
+    - [Ricardo](nombre)
+    - [Verónica](nombre)
+    - [Iván](nombre)
+    - [Melany](nombre)
+    - [Alex](nombre)
+    - [Tato](nombre)
+    - [Pepito](nombre)
 
 - intent: dar_telefono
   examples: |
-    - mi número es [3145678901](telefono)
-    - es [3019876543](telefono)
-    - teléfono [3234567890](telefono)
+    - mi número es [3001122334](telefono)
+    - te puedo dar mi cel: [3014455667](telefono)
+    - mi teléfono es [3027788990](telefono)
+    - escríbeme al [3039988776](telefono)
+    - puedes llamarme al [3042233445](telefono)
+    - el número es [3055566778](telefono)
+    - anota mi cel [3068899001](telefono)
+    - mi contacto es [3073344556](telefono)
+    - te dejo mi número [3086677889](telefono)
+    - comunícate al [3099900112](telefono)
+    - mi celular es [3105566998](telefono)
+    - es [3111122334](telefono)
+    - escríbeme a este número [3124455789](telefono)
+    - puedes marcar al [3138899775](telefono)
+    - mi número personal es [3142233554](telefono)
+    - te doy mi número [3156677990](telefono)
+    - contáctame al [3167788002](telefono)
+    - mi cel es [3179800113](telefono)
+    - mi número de contacto es [3183344667](telefono)
+    - puedes llamarme al [3197788991](telefono)
+    - mi número es [3204455667](telefono)
+    - escríbeme al [3218899004](telefono)
+    - te dejo este número [3221133557](telefono)
+    - anótalo: [3236677881](telefono)
+    - comunícate al [3249988771](telefono)
+    - mi teléfono es [3261122445](telefono)
+    - te paso mi número [3288899003](telefono)
+    - mi número personal es [3295566880](telefono)
+    - escríbeme al [3103344988](telefono)
+    - mi cel es [3117788662](telefono)
+    - puedes llamarme al [3125566779](telefono)
+    - anota este número [3136677001](telefono)
+    - mi teléfono es [3142233998](telefono)
+    - te dejo mi número [3158899221](telefono)
+    - mi número es [3161100223](telefono)
+    - puedes marcar al [3174455990](telefono)
+    - comunícate conmigo al [3187788441](telefono)
+    - te doy este número [3195566009](telefono)
+    - mi celular es [3207789044](telefono)
+    - escríbeme al [3215566088](telefono)
+    - mi contacto es [3229988773](telefono)
+    - te paso mi número [3231122448](telefono)
+    - puedes llamarme al [3248899006](telefono)
+    - mi número es [3256677885](telefono)
+    - anótalo: [3264455779](telefono)
+    - escríbeme al [3277788993](telefono)
+    - comunícate al [3281122339](telefono)
 
 - intent: dar_email
   examples: |
-    - mi correo es [ejemplo@mail.com](email)
-    - es [usuario@gmail.com](email)
-    - correo [test@hotmail.com](email)
+    - mi correo es [juanperez@gmail.com](email)
+    - es [laura.torres@hotmail.com](email)
+    - correo [camilarojas@yahoo.com](email)
+    - mi email es [david.123@outlook.com](email)
+    - puedes escribirme a [andresmendoza@gmail.com](email)
+    - anota este correo [sofialopez@live.com](email)
+    - mi correo personal es [carlos98@hotmail.com](email)
+    - escríbeme a [tatiana.gomez@gmail.com](email)
+    - el correo es [felipe_22@outlook.com](email)
+    - mi email es [paula.castillo@yahoo.com](email)
+    - te paso mi correo [lucho.vargas@yahoo.com](email)
+    - usa este correo porfa [anderson.pineda@gmail.com](email)
+    - mi correo oficial es [camilo.arteaga@hotmail.com](email)
+    - escríbeme a este: [viviana_romero@outlook.com](email)
+    - este es mi email [hernanperez27@gmail.com](email)
+    - toma mi correo [janeth.bustos@yahoo.com](email)
+    - el correo para contacto es [miguel.toro@outlook.com](email)
+    - puedes usar este email [paola_murillo@gmail.com](email)
+    - mi email personal: [stefania.lopez@live.com](email)
+    - puedes escribir a [camilo1234@gmail.com](email)
+    - mi email habitual: [sofiaruiz@outlook.com](email)
+    - escríbeme por aquí [marco_romero@gmail.com](email)
+    - mi correo es este [mariajose.arias@hotmail.com](email)
+    - te dejo este correo: [sebastianmoreno@outlook.com](email)
+    - mándame info a [karol_ospina@gmail.com](email)
+    - mi email corporativo es [juan.herrera@live.com](email)
+    - el correo sería [valentina_gallego@yahoo.com](email)
+    - escribe ahí por favor [julio_castro@hotmail.com](email)
+    - dejo este email [angela_rojas@outlook.com](email)
+    - correo de contacto: [ricardo.mendez@gmail.com](email)
+    - este email me sirve [nathaly23@yahoo.com](email)
+    - te comparto mi correo [gustavo.barrera@hotmail.com](email)
+    - mi email alternativo es [melissa_sanchez@outlook.com](email)
+    - anota este [cristian_vargas@gmail.com](email)
+    - usa el correo [lauraperez24@yahoo.com](email)
+    - puedes escribirme por aquí [joseandres@live.com](email)
+    - mi correo personal sería [tania.velasco@yahoo.com](email)
+    - te doy mi email [alvaro_salas@hotmail.com](email)
+    - contáctame en [silvana.morales@outlook.com](email)
+    - este es mi email actual [matias.cuellar@gmail.com](email)
+
+- intent: confirmar
+  examples: |
+    - sí
+    - si
+    - claro
+    - sí, claro
+    - por supuesto
+    - afirmativo
+    - correcto
+    - totalmente
+    - de una
+    - de acuerdo
+    - entendido
+    - confirmado
+    - sí, está bien
+    - sí, adelante
+    - ok
+    - okay
+    - okey
+    - sí, muchas gracias
+    - sí, continúa
+    - sí, sigue
+    - sí, procede
+    - sí, confirmado
+    - sí, lo apruebo
+    - sí, cuenta con eso
+    - sí, perfecto
+    - sí, me sirve
+    - listo
+    - claro que sí
+    - sin duda
+    - afirmo
+
+- intent: negar
+  examples: |
+    - no
+    - nop
+    - para nada
+    - no gracias
+    - mejor no
+    - no es necesario
+    - no por ahora
+    - no me interesa
+    - no estoy seguro
+    - no, no creo
+    - no lo necesito
+    - no lo requiero
+    - no, cancélalo
+    - cancela eso
+    - no estoy de acuerdo
+    - no aplica
+    - no, déjalo
+    - no lo hagas
+    - no lo permito
+    - no deseo continuar
+    - no quiero continuar
+    - no me sirve
+    - no es lo que busco
+    - no, prefiero otra cosa
+    - no me convence
+    - no lo acepto
+    - no doy permiso
+    - no, no autorizo
+    - no puedo
+    - no sé
+    - no, no tengo interés
+    - no quiero proporcionar eso
+
+lookup: nombre
+examples: |
+  Alejandro
+  Andrés
+  Adrián
+  Alejandra
+  Ana
+  Ana María
+  Ana Sofía
+  Andrés Felipe
+  Andrés Camilo
+  Angie
+  Ariana
+  Ariel
+  Armando
+  Bernardo
+  Brayan
+  Brian
+  Camila
+  Carlos
+  Carlos Andrés
+  Carlos Alberto
+  Carolina
+  Catalina
+  Cristian
+  Cristina
+  Claudia
+  Daniel
+  Daniela
+  Danilo
+  David
+  Diego
+  Diana
+  Edgar
+  Edison
+  Edwin
+  Eliana
+  Elizabeth
+  Emiliano
+  Emilio
+  Enrique
+  Esteban
+  Evelyn
+  Fabián
+  Felipe
+  Fernanda
+  Fernando
+  Francisco
+  Gabriela
+  Gabriel
+  Gerardo
+  Germán
+  Giovanny
+  Giselle
+  Guillermo
+  Héctor
+  Henry
+  Hugo
+  Isabella
+  Iván
+  Ivonne
+  Jaime
+  Jairo
+  Jéssica
+  Jennifer
+  Jin (ejemplo extra)
+  Johan
+  Johana
+  José
+  José Luis
+  Juan
+  Juan Andrés
+  Juan Camilo
+  Juan Carlos
+  Julián
+  Juliana
+  Karen
+  Karina
+  Karol
+  Katherine
+  Kevin
+  Laura
+  Laura Sofía
+  Leonardo
+  Lina
+  Luis
+  Luisa
+  Manuel
+  Manuela
+  Marcela
+  María
+  Mariana
+  Mario
+  Marta
+  Mateo
+  Martín
+  Mauricio
+  Melany
+  Melissa
+  Miguel
+  Mónica
+  Nancy
+  Natalia
+  Nicolás
+  Óscar
+  Orlando
+  Paola
+  Patricia
+  Pedro
+  Pilar
+  Rafael
+  Ramiro
+  Ricardo
+  Rodrigo
+  Rosa
+  Rubén
+  Samuel
+  Santiago
+  Sara
+  Sergio
+  Silvia
+  Simón
+  Sonia
+  Tatiana
+  Teresa
+  Valentina
+  Valeria
+  Vanessa
+  Verónica
+  Víctor
+  Victoria
+  Vivian
+  Wendy
+  William
+  Wilson
+  Xavier
+  Yadira
+  Yeferson
+  Yuliana
+  Yuri
+  Zulma
+
+regex_features:
+- name: nombre
+  pattern: "[A-Za-zÀ-ÿñÑáéíóúÁÉÍÓÚüÜ\\s\\-']{2,40}"
+- name: telefono
+  pattern: "^(\\+?\\d{7,15})$"   
+- name: email
+  pattern: "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"

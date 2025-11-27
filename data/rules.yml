@@ -7,21 +7,29 @@ rules:
     - intent: saludar
     - action: utter_saludar
 
+- rule: Responder despedida
+  steps:
+    - intent: despedir
+    - action: utter_despedir
+
 - rule: Activar formulario de inscripción
   steps:
     - intent: solicitar_inscripcion
     - action: formulario_inscripcion
     - active_loop: formulario_inscripcion
 
-- rule: Enviar confirmación al terminar el formulario
+- rule: Cancelar formulario
+  condition:
+    - active_loop: formulario_inscripcion
+  steps:
+    - intent: negar
+    - action: utter_cancelar_formulario
+    - active_loop: null
+
+- rule: Confirmar inscripción al finalizar formulario
   condition:
     - active_loop: formulario_inscripcion
   steps:
     - action: formulario_inscripcion
     - active_loop: null
     - action: utter_inscripcion_completa
-
-- rule: Responder despedida
-  steps:
-    - intent: despedir
-    - action: utter_despedir
